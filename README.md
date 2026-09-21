@@ -1,12 +1,12 @@
 # Fake News Detection Using BERT-based Transformer Models 
 
-📌 Overview
+### Overview
 
 Fake News Detection is an NLP-based machine learning project designed to classify news content as Fake or Real.
 
 The project uses a BERT-based Transformer model from Hugging Face to understand the contextual information in news text and perform binary text classification.
 
-🎯 Objective
+### Objective
 
 The main objective is to build a text classification system that can identify patterns commonly associated with fake and real news content.
 
@@ -24,7 +24,7 @@ The main objective is to build a text classification system that can identify pa
 
 News Text → Tokenization → BERT Transformer → Text Classification → Fake / Real Prediction
 
-✨ Features
+### Features
 
 * Accepts news text as input
 * Processes text using BERT tokenization
@@ -32,7 +32,7 @@ News Text → Tokenization → BERT Transformer → Text Classification → Fake
 * Classifies input into Fake or Real
 * Displays prediction confidence
 
-📂 Project Structure
+### Project Structure
 ```
 Fake-News-Detection-Using-BERT/
 │
@@ -42,7 +42,7 @@ Fake-News-Detection-Using-BERT/
 ├── .gitignore
 └── data/
 ```
-🚀 How to Run
+### How to Run
 
 1. Clone the repository
 
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 python main.py
 
-📊 Evaluation
+### Evaluation
 
 The model can be evaluated using standard classification metrics such as:
 
@@ -67,10 +67,21 @@ The model can be evaluated using standard classification metrics such as:
 
 Actual performance depends on the dataset and model configuration.
 
-⚠️ Disclaimer
+### output
 
-This project is intended for educational and research purposes. Model predictions should not be considered definitive verification of news authenticity.
+Fake News Detection Using BERT
+----------------------------------------
+Model loaded successfully!
 
-👨‍💻 Author
+Enter news text: Scientists discovered a new method to improve solar energy efficiency.
 
-Nithiyanandan
+Prediction: REAL
+Confidence: 94.27%
+
+Enter news text: A famous actor announced that humans can live without water for 30 days.
+
+Prediction: FAKE
+Confidence: 98.41%
+
+### result
+Thus the fake news detection using BERT stack is executed successfully.
